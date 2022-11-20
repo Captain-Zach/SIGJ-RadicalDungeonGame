@@ -11,6 +11,8 @@ public class Enemy : MonoBehaviour
     public Transform pivot;
     private Weapon weapon;
 
+    [SerializeField] private GameState currentState;
+
     public string weaponTag = "Weapon";
     private int health = 1;
 
@@ -102,6 +104,8 @@ public class Enemy : MonoBehaviour
 
     public void Die()
     {
+        // This is where we should handle setting the gameState
+        currentState.ratBoss = true;
         Debug.Log("Whyyyyy?!");
         Destroy(gameObject);
     }
