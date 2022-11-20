@@ -147,7 +147,7 @@ title: HeartNote
 
 ---
 <<stop_emit FMODaudio>>
-Baelor: Behold, I'm dead! #line:203
+Baelor: My dear Gobkin. If you’re hearing this, then I didn’t survive our journey. I know it is normal for the departed to say ‘do not grieve.’ But then I was never normal. Grief isn’t something to be avoided, it should be embraced. For like you, and Osseus, and Rotta, grief is often misjudged by its appearance. It is pain, but beyond that, we find its true beauty: It reminds us of what is precious. Friendship. Love. Time. None of us know, Gobkin, how long we have on this plane. So, remember grief’s lesson and go: Protect and cherish your friends. Love joyously, with all your heart. And live in every glorious moment of the time granted to you. Do this, and when your death comes, you will pass on grief’s gift: And remind the world of what is precious.  #line:203
 // And then go to the game over screen! (OR, you know, to be continued)
 
 //<<url_emit FMODaudio "event:/Hub Theme">>

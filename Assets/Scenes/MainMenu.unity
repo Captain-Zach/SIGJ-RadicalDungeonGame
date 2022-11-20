@@ -438,7 +438,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 8579107955598865968, guid: 688ff1fef80a82e42bccda806c62b0e7, type: 3}
       propertyPath: targetScene
-      value: Hub
+      value: ArenaV2
       objectReference: {fileID: 0}
     - target: {fileID: 8579107955598865969, guid: 688ff1fef80a82e42bccda806c62b0e7, type: 3}
       propertyPath: m_Pivot.x

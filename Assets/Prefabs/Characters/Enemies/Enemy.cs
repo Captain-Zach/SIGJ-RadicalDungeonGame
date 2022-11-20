@@ -105,7 +105,19 @@ public class Enemy : MonoBehaviour
     public void Die()
     {
         // This is where we should handle setting the gameState
-        currentState.ratBoss = true;
+        if (enemyType.enemyName == "Osteomechanicum")
+        {
+            print("Bone Boss");
+            currentState.boneBoss = true;
+        }
+        if (enemyType.enemyName == "Rat King")
+        {
+            print("Rat Boss");
+            currentState.ratBoss = true;
+        }
+        print("Enemy type: " + enemyType);
+        print("Enemy Name: " + enemyType.enemyName);
+
         Debug.Log("Whyyyyy?!");
         Destroy(gameObject);
     }
