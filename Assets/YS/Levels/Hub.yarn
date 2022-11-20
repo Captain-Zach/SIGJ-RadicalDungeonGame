@@ -143,5 +143,13 @@ position: 213,160
 ---
 
 ===
+title: HeartNote
 
+---
+<<stop_emit FMODaudio>>
+Baelor: Behold, I'm dead! #line:203
+// And then go to the game over screen! (OR, you know, to be continued)
+
+//<<url_emit FMODaudio "event:/Hub Theme">>
+===
 

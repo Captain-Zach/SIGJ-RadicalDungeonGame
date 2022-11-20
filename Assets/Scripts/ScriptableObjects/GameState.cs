@@ -13,6 +13,9 @@ public class GameState : ScriptableObject
     public int health;
     public int roomID;
 
+    public bool ratBoss = false;
+    public bool boneBoss = false;
+
     public List<string> visitedRooms;
 
 

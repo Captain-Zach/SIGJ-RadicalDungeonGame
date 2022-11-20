@@ -17,3 +17,6 @@ MonoBehaviour:
   xp: 0
   health: 0
   roomID: 0
+  ratBoss: 0
+  boneBoss: 0
+  visitedRooms: []
